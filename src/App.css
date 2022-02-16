@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.hover-item:hover {
+  background-color: yellow;
+  color: #000;
+} 
+
+.chat {
+  /* position: absolute; */
+  bottom: 5%;
+  height: 70px;
+  object-fit: contain;
+  right: 5%;
+  cursor: pointer;
+  position: fixed;
+}
+
+.page-item {
+  cursor: pointer;
+}
